@@ -85,19 +85,20 @@ class CartPage extends React.Component {
                 <div className={classes.summary}>
                   <div className={classes.totalPrice}>
                     <p>Tax 21%:</p>
-                    <p className={classes.price}>
+                    <p className={classes.priceA}>
+                      {this.state.currency.symbol}
                       {this.calcTax()}
                     </p>
                   </div>
                   <div className={classes.totalPrice}>
                     <p>Quantity:</p>
-                    <p className={classes.price}>
+                    <p className={classes.priceQ}>
                       {this.calcNumProductInBag()}
                     </p>
                   </div>
                   <div className={classes.totalPrice}>
                     <p>Total:</p>
-                    <p className={classes.price}>
+                    <p className={classes.priceT}>
                       {this.state.currency.symbol}
                       {this.calcTotalPrice()}
                     </p>

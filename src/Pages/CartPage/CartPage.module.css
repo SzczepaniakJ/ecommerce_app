@@ -23,16 +23,19 @@
 .summary{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0rem;
+  gap: 1rem;
 }
 
 .totalPrice {
   display: flex;
-  align-items: flex-end;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
   font-family: Raleway;
   font-size: 1.5rem;
   font-weight: 700;
-
   color: var(--c-out-stock);
 }
 
@@ -43,8 +46,21 @@
   color: var(--c-text);
 }
 
-.totalPrice .price {
-  margin-left: 1rem;
+.totalPrice .priceA {
+  margin-left: 0.7rem;
+  color: var(--c-text);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.totalPrice .priceQ {
+  color: var(--c-text);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.totalPrice .priceT {
+  margin-left: 2.5rem;
   color: var(--c-text);
   font-size: 1.5rem;
   font-weight: 700;
