@@ -1,23 +1,28 @@
-Entry React developer TEST
+#Entry React developer TEST Scandiweb
 
-Submitted by: Jakub Szczepaniak
+##Submitted by: Jakub Szczepaniak
 
-Getting Started:
+##Getting Started:
 
 1. Clone this repository into your local machine:
 
+    ```console
    git clone ... react-app && cd react-app
+   ```
 
 2. Install the packages/dependancies specified in the _package.json_ file:
 
+    ```console
     npm install
+    ```
 
 3. Run the project:
 
+    ```console
     npm start
+    ```
 
-
-Important notes:
+##Important notes:
 
 1. Please make sure GraphQL server is up and running. You can find it here: (https://github.com/scandiweb/junior-react-endpoint). Follow the instructions provided in the repository.
 2. Default port of the GrapQL endpoint is 4000. You can change it in /src/GrapQL/api.js file.
