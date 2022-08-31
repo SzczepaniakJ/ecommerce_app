@@ -7,7 +7,7 @@
 1. Clone this repository into your local machine:
 
     ```console
-   git clone ... react-app && cd react-app
+   git clone https://github.com/SzczepaniakJ/ecommerce_app.git ecommerce_app && cd ecommerce_app
    ```
 
 2. Install the packages/dependencies specified in the _package.json_ file:
